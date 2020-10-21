@@ -51,11 +51,11 @@ ap.add_argument("-r", "--picamera", type = int, default = -1, help = "whether ra
 args = vars(ap.parse_args())
 
 # EAR threshold value, below which a blink is considered
-EAR_THRESHOLD = 0.25
+EAR_THRESHOLD = 0.24
 # Number of frames to consider for a blink 
 CONSECUTIVE_FRAMES = 15 
 # MAR threshold value
-MAR_THRESHOLD = 21
+MAR_THRESHOLD = 23
 
 # Counters inititalization 
 BLINK_COUNT = 0 
